@@ -2,11 +2,12 @@
 /*Обнуление*/
 @import "_nullstyle";
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Indie+Flower&display=swap');
 
 /*--------------------*/
 body {
     font-family: 'Indie Flower';
+    font-size: 24px;
 }
 
 .header {
@@ -21,7 +22,7 @@ body {
     color: #FFFFFF;
     height: 76px;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -33,22 +34,63 @@ body {
     width: 100%;
     min-width: 1000px;
     background: #FFAAAA;
-    
+
 }
 
 .container {
     width: 1000px;
     background-color: #FFFFFF;
     padding: 9px 9px 9px 9px;
-    font-size: 70px;
     height: 100%;
+
+}
+
+.navigation {
+    display: flex;
+}
+
+.image {
+    border-radius: 45%;
+}
+
+.image_2 {
+    width: 150px;
+}
+
+.image_3 {
+    width: 200px;
+}
+
+.guy_image {
+    margin: 88px 0px 0px 63px;
+    border: solid 1px #F29696;
+    border-radius: 100px 464px 464px 464px;
+    height: 308px;
+    width: 340px;
+    overflow: hidden;
+    background-image: url("../img/guy.png");
+    background-size: auto 100%;
+    background-position: center center;
+}
+
+.my_introduction {
+    margin-top: 249px;
+    width: 323px;
+    height: 124px;
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 31px;
+    text-align: center;
+    color: #000000;
 }
 
 nav {
     margin: 89px 0 0 0;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
 
 }
 
@@ -100,4 +142,8 @@ nav {
 
 .main p {
     text-shadow: 7px 7px 12px;
+}
+
+.who_am_I{
+    display: flex;
 }
