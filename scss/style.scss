@@ -1,8 +1,12 @@
 @charset "UTF-8";
 /*Обнуление*/
 @import "_nullstyle";
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,900);
-@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inder&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inika&display=swap');
 
 /*--------------------*/
 body {
@@ -55,9 +59,16 @@ body {
 
 .image_2 {
     width: 150px;
+    height: 123px;
+    border-radius: 61px;
+    margin-left: 137px;
 }
 
 .image_3 {
+    border-radius: 53px;
+    margin-top: 150px;
+    margin-left: 71px;
+    height: 107px;
     width: 200px;
 }
 
@@ -141,9 +152,40 @@ nav {
 }
 
 .main p {
-    text-shadow: 7px 7px 12px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.main p:first-child{
+    text-indent: -100px;
+    line-height: 30px;
+    font-family: 'Inder';
+}
+.main p:nth-child(2){
+    line-height: 35px;
+    color: #886A1D;
+}
+.main p:nth-child(3){    
+    line-height: 25px;
+    color: #8C6B59;
+    font-family: 'Inconsolata';
+}
+.main p:nth-child(4){    
+    line-height: 31px;
+    color: #7B0808;
+    font-family: 'Inika';
+}
+
+
 
 .who_am_I{
     display: flex;
+    margin-left: 170px;
+    margin-top: 18px;
+}
+.who_am_I_list{
+    margin-top: 42px;
+    text-decoration: underline;
+}
+.I_am {
+    color: #FC4F4F;
 }
